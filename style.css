@@ -8,6 +8,7 @@ h1 {
   background-color: white;
   border: 5px solid black;
   padding: 10px;
+  text-align: center;
 }
 
 p {
@@ -16,8 +17,25 @@ p {
   border: 2px dotted black;
 }
 
-img {
-  border: 5px solid fuchsia;
-  width: 50%;
-  height: 50%;
+.sidebar {
+  height: 150px;
+  width: 150px;
+  position: fixed;
+  top: 25;
+  left: 0;
+  padding-top: 10px;
+  background-color: #F8F8FF;
+  border: 5px solid black;
+}
+
+.sidebar div {
+  padding: 4px;
+  font-size: 18px;
+  display: block;
+}
+
+.body-text {
+  margin-left: 175px;
+  margin-right: 175px
+  font-size: 18px;
 }
