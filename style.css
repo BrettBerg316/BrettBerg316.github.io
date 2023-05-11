@@ -12,9 +12,9 @@ h1 {
 }
 
 p {
-  color: red;
+  color: black;
   background-color: white;
-  border: 2px dotted black;
+  border: 2px solid black;
 }
 
 .sidebar {
